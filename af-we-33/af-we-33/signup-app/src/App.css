@@ -1,0 +1,260 @@
+abel {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 100px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+body {
+  background-color: #f9f9fa
+}
+
+.padding {
+  padding: 3rem !important
+}
+
+.user-card-full {
+  overflow: hidden
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border: none;
+  margin-bottom: 30px
+}
+
+.m-r-0 {
+  margin-right: 0px
+}
+
+.m-l-0 {
+  margin-left: 0px
+}
+
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px
+}
+
+.bg-c-lite-green {
+  background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+  background: linear-gradient(to right, #ee5a6f, #f29263)
+}
+
+.user-profile {
+  padding: 20px 0
+}
+
+.card-block {
+  padding: 1.25rem
+}
+
+.m-b-25 {
+  margin-bottom: 25px
+}
+
+.img-radius {
+  border-radius: 5px
+}
+
+h6 {
+  font-size: 16px
+}
+
+.card .card-block p {
+  line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+  p {
+      font-size: 12px
+  }
+}
+
+.card-block {
+  padding: 1.25rem
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+  margin-bottom: 20px
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important
+}
+
+.card .card-block p {
+  line-height: 25px
+}
+
+.m-b-10 {
+  margin-bottom: 10px
+}
+
+.text-muted {
+  color: #919aa3 !important
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+  font-weight: 600
+}
+
+.m-b-20 {
+  margin-bottom: 20px
+}
+
+.m-t-40 {
+  margin-top: 20px
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important
+}
+
+.m-b-10 {
+  margin-bottom: 10px
+}
+
+.m-t-40 {
+  margin-top: 20px
+}
+
+.user-card-full .social-link li {
+  display: inline-block
+}
+
+.user-card-full .social-link li a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out
+}
+
+.form-group {
+  padding: 0 10px;
+  height: 100px;
+}
+.user-edit-container {
+  width: 40%;
+}
+.container{
+  margin: 0;
+  max-width: 10240px;
+  padding: 0px;
+  height: calc(100vh - 56px);
+}
+
+.login-container {
+  padding: 150px 200px;
+  height: calc(100vh - 59px);
+}
+.login-image {
+  display:block;
+  margin:auto;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+.root-dev {
+  height: 100vh;
+}
+.login-main-container {
+  height: calc(100vh - 50px);
+}
+.login-image-container {
+  display: flex;
+}
+
+.sign-title {
+  padding: 10px;
+}
+
+.input-label {
+  padding-bottom: 5px;
+}
+.login-button {
+  width: 100%;
+  margin: 50px 0px;
+  font-size: 24px;
+}
+.navbar-container {
+  padding: 30px;
+}
+.profile-buttons {
+  width: 100%;
+  font-size: 18px;
+}
+
+.register-main-container {
+  width: 40%;
+}
+
+.register-title{
+  padding: 0px 10px;
+}
+
+.register-sub-title {
+  padding: 10px;
+}
+
+.signup-button {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.validation-messages {
+  padding: 0;
+  background: #f7f7f7;
+  margin-bottom: 0px;
+  border: 0px solid;
+  color: #ed4337;
+}
+.profile-labels {
+  font-size: 18px;
+}
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body {
+  font-family:'Lucida Casual', 'Comic Sans MS';
+}
