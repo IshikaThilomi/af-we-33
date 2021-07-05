@@ -1,0 +1,91 @@
+.App {
+	text-align: center;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 190px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+	border-radius: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .App-logo {
+	height: 40vmin;
+	pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+	  animation: App-logo-spin infinite 20s linear;
+	}
+  }
+  
+  .App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	font-family: 'Jomhuria', cursive;
+  }
+  
+  .App-link {
+	color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+
+  .mainclass{
+	font-family: 'Jomhuria', cursive;
+	font-size:70px
+  }
+  .myEvent{
+	font-family: 'Jomhuria', cursive;
+	font-size:10px
+  }
+  .Logo{
+	  height: 80px;
+	  margin-bottom:-30px;
+  }
+  .Logo2{
+	height: 580px;
+}
+  .footer{
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	left: 0;
+	width: 100%;
+	font-size:20px;
+	font-family: 'Jomhuria', cursive;
+  }
+.nav-link{
+	color: white;
+}
